@@ -1,0 +1,32 @@
+{
+  "name": "fast-oss-cli",
+  "version": "1.0.1",
+  "description": "fast-oss aliyun oss cli",
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "fastoss": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -d --outDir bin -m es2020 -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devilwjp/fast-oss"
+  },
+  "author": "devilwjp",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.0",
+    "commander": "^9.4.1",
+    "fast-oss-core": "^1.0.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  }
+}

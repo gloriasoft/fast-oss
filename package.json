@@ -1,0 +1,20 @@
+{
+  "name": "fast-oss",
+  "version": "1.0.1",
+  "description": "简单快速高效的oss命令行工具",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "link-cli": "cd packages/fast-oss-cli && npm i -g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devilwjp/fast-oss"
+  },
+  "author": "devilwjp",
+  "license": "ISC",
+  "workspaces": [
+    "packages/fast-oss-core",
+    "packages/fast-oss-cli"
+  ]
+}

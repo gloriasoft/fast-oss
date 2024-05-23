@@ -1,0 +1,28 @@
+{
+  "name": "fast-oss-core",
+  "version": "1.0.1",
+  "description": "fast-oss aliyun oss core",
+  "main": "./lib/index.js",
+  "type": "module",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "tsc -d --outDir lib -m es6 -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devilwjp/fast-oss"
+  },
+  "author": "devilwjp",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.8.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "ali-oss": "^6.17.1",
+    "chalk": "^5.1.0"
+  }
+}
