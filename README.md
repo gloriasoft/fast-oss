@@ -1,6 +1,8 @@
 # fast-oss
 fast-oss nodejs
 
+[fast-oss-cli的使用说明](https://github.com/devilwjp/fast-oss/tree/main/packages/fast-oss-cli)
+
 ## monorepo  
 使用npm 7+版本的`workspaces`取代`lerna`
 
